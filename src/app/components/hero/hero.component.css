@@ -1,0 +1,121 @@
+.hero-container {
+    position: relative;
+    height: 100vh;
+    background:
+      radial-gradient(125% 125% at 50% 10%, #000 50%, rgb(0, 175, 255) 100%),
+      linear-gradient(180deg, rgba(50, 50, 50, 0.9) 0%, rgba(20, 20, 20, 1) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    padding: 0 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .hero-text h1 {
+    font-size: 5rem;
+    margin-bottom: 0.3em;
+    margin-top: 0.2em;
+    font-family: monospace;
+  }
+  
+  .hero-text h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5em;
+    color: #D1D5DB;
+    font-family: monospace;
+  }
+  
+  .hero-text p {
+    font-size: 1.1rem;
+    line-height: 1.5;
+    margin-bottom: 2em;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #D1D5DB;
+    font-family: monospace;
+  }
+  
+  .icon-buttons {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .icon-btn {
+    color: #D1D5DB;
+    transition: transform 0.2s, color 0.3s;
+  }
+  
+  .icon-btn:hover {
+    transform: scale(1.1);
+    color: #fff;
+  }
+  
+  @media (max-width: 480px) {
+    .hero-text h1 {
+      font-size: 2rem;
+    }
+  
+    .hero-text h2 {
+      font-size: 1.1rem;
+    }
+  
+    .hero-text p {
+      font-size: 1rem;
+    }
+  }
+  
+  .scroll-down {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: pointer;
+  animation: bounce 2s infinite;
+  color: #ffffffb2;
+  font-size: 2rem;
+  transition: color 0.3s;
+}
+
+.scroll-down:hover {
+  color: #ffffff;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateX(-50%) translateY(0);
+  }
+  50% {
+    transform: translateX(-50%) translateY(10px);
+  }
+}
+
+.typing {
+  font-family: monospace;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid #FFDD57;
+  width: 29ch;
+  animation: typing 3s steps(29), blink 0.75s step-end infinite;
+  color: #FFDD57;
+  font-weight: 600;
+  margin: 0 auto;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 29ch }
+}
+
+@keyframes blink {
+  50% { border-color: transparent }
+  100% { border-color: #FFDD57 }
+}
