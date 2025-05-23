@@ -20,6 +20,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: monospace;
+
 }
 
 .project-card::after {
@@ -107,6 +109,7 @@
 .title {
     margin-top: 5rem;
     text-align: center;
+    font-family: monospace;
 }
 
 @media (max-width: 768px) {
@@ -146,6 +149,7 @@
   display: flex;
   gap: 1rem;
   margin-top: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 .btn {
