@@ -1,7 +1,7 @@
 .hero-transition {
   height: 100vh;
   background:
-    radial-gradient(125% 125% at 50% 90%, #000 50%, rgb(0, 175, 255) 100%),
+    radial-gradient(125% 125% at 50% 90%, #272727 50%, #00afff 100%),
     linear-gradient(0deg, rgba(50, 50, 50, 0.9) 0%, rgba(20, 20, 20, 1) 100%);
   background-repeat: no-repeat;
   background-size: cover;
@@ -134,8 +134,8 @@
 
 @media (max-width: 450px) {
   .hero-transition {
-    padding: 10px 10px; /* padding horizontal controlado */
-    overflow-x: hidden; /* evita scroll horizontal */
+    padding: 10px 10px;
+    overflow-x: hidden;
   }
 
   .about-container {
@@ -143,11 +143,11 @@
     align-items: center;
     gap: 20px;
     width: 100%;
-    max-width: 100vw; /* No más que el ancho visible */
+    max-width: 100vw;
     box-sizing: border-box;
     padding: 0;
     margin: 0 auto;
-    overflow-x: hidden; /* prevención extra */
+    overflow-x: hidden; 
   }
 
   .about-text,
@@ -195,4 +195,17 @@
     max-width: 360px;
 
   }
+}
+
+.slider{
+  margin: 0px;
+  background-color: #000;
+}
+
+.slider h1{
+  margin: 0;
+  text-align: center;
+  font-family: monospace;
+  font-size: 35px;
+  background-color: #272727;
 }
