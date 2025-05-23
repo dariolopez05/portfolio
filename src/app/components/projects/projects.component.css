@@ -1,5 +1,6 @@
 .projects-container {
-    background-image: radial-gradient(circle 1110px at 5% 95%, rgba(1, 159, 232, 1) 0%, rgba(1, 159, 232, 1) 7.5%, #272727 44.7%);
+    /* background-image: radial-gradient(circle 1110px at 5% 95%, rgba(1, 159, 232, 1) 0%, rgba(1, 159, 232, 1) 7.5%, #272727 44.7%); */
+    background-color: #272727;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -15,7 +16,7 @@
   margin: 1rem auto;
   transition: 0.3s ease;
   border-radius: 30px;
-  filter: drop-shadow(0px 0px 30px rgba(204, 204, 204, 0.5));
+  filter: drop-shadow(0px 0px 15px rgba(204, 204, 204, 0.5));
   overflow: hidden;
   display: flex;
   align-items: center;
@@ -115,6 +116,11 @@
 }
 
 @media (max-width: 768px) {
+  .title {
+    margin-top: 0rem;
+    font-size: 1.5rem;
+  }
+
   .project-inner {
     flex-direction: column !important;
     gap: 1rem;
