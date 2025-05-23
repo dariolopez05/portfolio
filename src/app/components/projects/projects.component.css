@@ -126,6 +126,7 @@
 
   .project-card {
     height: 650px; 
+    width: 85%;
   }
 
   .project-inner {

@@ -2,8 +2,8 @@
     overflow: hidden;
     padding: 60px 0;
     white-space: nowrap;
-    background: #272727;
-    box-shadow: 0 4px 30px #272727;
+    background: #434343;
+    box-shadow: 0 4px 100px #565656;
     backdrop-filter: blur(3.3px);
     -webkit-backdrop-filter: blur(3.3px);
     position: relative;
@@ -25,12 +25,12 @@
 
 .slider:before {
     left: 0;
-    background: linear-gradient(to left, transparent, #272727);
+    background: linear-gradient(to left, transparent, #434343);
 }
 
 .slider:after {
     right: 0;
-    background: linear-gradient(to right, transparent, #272727);
+    background: linear-gradient(to right, transparent, #434343);
 }
 
 .logos-container {

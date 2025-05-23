@@ -115,6 +115,7 @@
   font-size: 35px;
   background-color: #272727;
   margin-top: 0px;
+  padding-bottom: 1rem;
 }
 
 @media (max-width: 768px) {
